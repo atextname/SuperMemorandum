@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046D7C851E755FBD00B46CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D7C841E755FBD00B46CDB /* main.m */; };
+		046D7C881E755FBD00B46CDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D7C871E755FBD00B46CDB /* AppDelegate.m */; };
+		046D7C8B1E755FBE00B46CDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D7C8A1E755FBE00B46CDB /* ViewController.m */; };
+		046D7C8E1E755FBE00B46CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046D7C8C1E755FBE00B46CDB /* Main.storyboard */; };
+		046D7C911E755FBE00B46CDB /* SuperMemorandum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046D7C8F1E755FBE00B46CDB /* SuperMemorandum.xcdatamodeld */; };
+		046D7C931E755FBE00B46CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046D7C921E755FBE00B46CDB /* Assets.xcassets */; };
+		046D7C961E755FBE00B46CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046D7C941E755FBE00B46CDB /* LaunchScreen.storyboard */; };
+		046D7CA11E755FBE00B46CDB /* SuperMemorandumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D7CA01E755FBE00B46CDB /* SuperMemorandumTests.m */; };
+		046D7CAC1E755FBE00B46CDB /* SuperMemorandumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D7CAB1E755FBE00B46CDB /* SuperMemorandumUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046D7C9D1E755FBE00B46CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046D7C781E755FBD00B46CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046D7C7F1E755FBD00B46CDB;
+			remoteInfo = SuperMemorandum;
+		};
+		046D7CA81E755FBE00B46CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046D7C781E755FBD00B46CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046D7C7F1E755FBD00B46CDB;
+			remoteInfo = SuperMemorandum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046D7C801E755FBD00B46CDB /* SuperMemorandum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMemorandum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046D7C841E755FBD00B46CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046D7C861E755FBD00B46CDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046D7C871E755FBD00B46CDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046D7C891E755FBD00B46CDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046D7C8A1E755FBE00B46CDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046D7C8D1E755FBE00B46CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046D7C901E755FBE00B46CDB /* SuperMemorandum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperMemorandum.xcdatamodel; sourceTree = "<group>"; };
+		046D7C921E755FBE00B46CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046D7C951E755FBE00B46CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046D7C971E755FBE00B46CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046D7C9C1E755FBE00B46CDB /* SuperMemorandumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMemorandumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046D7CA01E755FBE00B46CDB /* SuperMemorandumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMemorandumTests.m; sourceTree = "<group>"; };
+		046D7CA21E755FBE00B46CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046D7CA71E755FBE00B46CDB /* SuperMemorandumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMemorandumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046D7CAB1E755FBE00B46CDB /* SuperMemorandumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMemorandumUITests.m; sourceTree = "<group>"; };
+		046D7CAD1E755FBE00B46CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046D7C7D1E755FBD00B46CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046D7C991E755FBE00B46CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046D7CA41E755FBE00B46CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046D7C771E755FBD00B46CDB = {
+			isa = PBXGroup;
+			children = (
+				046D7C821E755FBD00B46CDB /* SuperMemorandum */,
+				046D7C9F1E755FBE00B46CDB /* SuperMemorandumTests */,
+				046D7CAA1E755FBE00B46CDB /* SuperMemorandumUITests */,
+				046D7C811E755FBD00B46CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046D7C811E755FBD00B46CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046D7C801E755FBD00B46CDB /* SuperMemorandum.app */,
+				046D7C9C1E755FBE00B46CDB /* SuperMemorandumTests.xctest */,
+				046D7CA71E755FBE00B46CDB /* SuperMemorandumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046D7C821E755FBD00B46CDB /* SuperMemorandum */ = {
+			isa = PBXGroup;
+			children = (
+				046D7C861E755FBD00B46CDB /* AppDelegate.h */,
+				046D7C871E755FBD00B46CDB /* AppDelegate.m */,
+				046D7C891E755FBD00B46CDB /* ViewController.h */,
+				046D7C8A1E755FBE00B46CDB /* ViewController.m */,
+				046D7C8C1E755FBE00B46CDB /* Main.storyboard */,
+				046D7C921E755FBE00B46CDB /* Assets.xcassets */,
+				046D7C941E755FBE00B46CDB /* LaunchScreen.storyboard */,
+				046D7C971E755FBE00B46CDB /* Info.plist */,
+				046D7C8F1E755FBE00B46CDB /* SuperMemorandum.xcdatamodeld */,
+				046D7C831E755FBD00B46CDB /* Supporting Files */,
+			);
+			path = SuperMemorandum;
+			sourceTree = "<group>";
+		};
+		046D7C831E755FBD00B46CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046D7C841E755FBD00B46CDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046D7C9F1E755FBE00B46CDB /* SuperMemorandumTests */ = {
+			isa = PBXGroup;
+			children = (
+				046D7CA01E755FBE00B46CDB /* SuperMemorandumTests.m */,
+				046D7CA21E755FBE00B46CDB /* Info.plist */,
+			);
+			path = SuperMemorandumTests;
+			sourceTree = "<group>";
+		};
+		046D7CAA1E755FBE00B46CDB /* SuperMemorandumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046D7CAB1E755FBE00B46CDB /* SuperMemorandumUITests.m */,
+				046D7CAD1E755FBE00B46CDB /* Info.plist */,
+			);
+			path = SuperMemorandumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046D7C7F1E755FBD00B46CDB /* SuperMemorandum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046D7CB01E755FBE00B46CDB /* Build configuration list for PBXNativeTarget "SuperMemorandum" */;
+			buildPhases = (
+				046D7C7C1E755FBD00B46CDB /* Sources */,
+				046D7C7D1E755FBD00B46CDB /* Frameworks */,
+				046D7C7E1E755FBD00B46CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMemorandum;
+			productName = SuperMemorandum;
+			productReference = 046D7C801E755FBD00B46CDB /* SuperMemorandum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046D7C9B1E755FBE00B46CDB /* SuperMemorandumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046D7CB31E755FBE00B46CDB /* Build configuration list for PBXNativeTarget "SuperMemorandumTests" */;
+			buildPhases = (
+				046D7C981E755FBE00B46CDB /* Sources */,
+				046D7C991E755FBE00B46CDB /* Frameworks */,
+				046D7C9A1E755FBE00B46CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046D7C9E1E755FBE00B46CDB /* PBXTargetDependency */,
+			);
+			name = SuperMemorandumTests;
+			productName = SuperMemorandumTests;
+			productReference = 046D7C9C1E755FBE00B46CDB /* SuperMemorandumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046D7CA61E755FBE00B46CDB /* SuperMemorandumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046D7CB61E755FBE00B46CDB /* Build configuration list for PBXNativeTarget "SuperMemorandumUITests" */;
+			buildPhases = (
+				046D7CA31E755FBE00B46CDB /* Sources */,
+				046D7CA41E755FBE00B46CDB /* Frameworks */,
+				046D7CA51E755FBE00B46CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046D7CA91E755FBE00B46CDB /* PBXTargetDependency */,
+			);
+			name = SuperMemorandumUITests;
+			productName = SuperMemorandumUITests;
+			productReference = 046D7CA71E755FBE00B46CDB /* SuperMemorandumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046D7C781E755FBD00B46CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "sc-ici";
+				TargetAttributes = {
+					046D7C7F1E755FBD00B46CDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 94S8BE2S25;
+						ProvisioningStyle = Automatic;
+					};
+					046D7C9B1E755FBE00B46CDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 94S8BE2S25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 046D7C7F1E755FBD00B46CDB;
+					};
+					046D7CA61E755FBE00B46CDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 94S8BE2S25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 046D7C7F1E755FBD00B46CDB;
+					};
+				};
+			};
+			buildConfigurationList = 046D7C7B1E755FBD00B46CDB /* Build configuration list for PBXProject "SuperMemorandum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046D7C771E755FBD00B46CDB;
+			productRefGroup = 046D7C811E755FBD00B46CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046D7C7F1E755FBD00B46CDB /* SuperMemorandum */,
+				046D7C9B1E755FBE00B46CDB /* SuperMemorandumTests */,
+				046D7CA61E755FBE00B46CDB /* SuperMemorandumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046D7C7E1E755FBD00B46CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D7C961E755FBE00B46CDB /* LaunchScreen.storyboard in Resources */,
+				046D7C931E755FBE00B46CDB /* Assets.xcassets in Resources */,
+				046D7C8E1E755FBE00B46CDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046D7C9A1E755FBE00B46CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046D7CA51E755FBE00B46CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046D7C7C1E755FBD00B46CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D7C911E755FBE00B46CDB /* SuperMemorandum.xcdatamodeld in Sources */,
+				046D7C8B1E755FBE00B46CDB /* ViewController.m in Sources */,
+				046D7C881E755FBD00B46CDB /* AppDelegate.m in Sources */,
+				046D7C851E755FBD00B46CDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046D7C981E755FBE00B46CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D7CA11E755FBE00B46CDB /* SuperMemorandumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046D7CA31E755FBE00B46CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D7CAC1E755FBE00B46CDB /* SuperMemorandumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046D7C9E1E755FBE00B46CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046D7C7F1E755FBD00B46CDB /* SuperMemorandum */;
+			targetProxy = 046D7C9D1E755FBE00B46CDB /* PBXContainerItemProxy */;
+		};
+		046D7CA91E755FBE00B46CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046D7C7F1E755FBD00B46CDB /* SuperMemorandum */;
+			targetProxy = 046D7CA81E755FBE00B46CDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046D7C8C1E755FBE00B46CDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046D7C8D1E755FBE00B46CDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046D7C941E755FBE00B46CDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046D7C951E755FBE00B46CDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046D7CAE1E755FBE00B46CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046D7CAF1E755FBE00B46CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046D7CB11E755FBE00B46CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94S8BE2S25;
+				INFOPLIST_FILE = SuperMemorandum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sc-ici.SuperMemorandum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046D7CB21E755FBE00B46CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94S8BE2S25;
+				INFOPLIST_FILE = SuperMemorandum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sc-ici.SuperMemorandum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		046D7CB41E755FBE00B46CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 94S8BE2S25;
+				INFOPLIST_FILE = SuperMemorandumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sc-ici.SuperMemorandumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMemorandum.app/SuperMemorandum";
+			};
+			name = Debug;
+		};
+		046D7CB51E755FBE00B46CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 94S8BE2S25;
+				INFOPLIST_FILE = SuperMemorandumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sc-ici.SuperMemorandumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMemorandum.app/SuperMemorandum";
+			};
+			name = Release;
+		};
+		046D7CB71E755FBE00B46CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 94S8BE2S25;
+				INFOPLIST_FILE = SuperMemorandumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sc-ici.SuperMemorandumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperMemorandum;
+			};
+			name = Debug;
+		};
+		046D7CB81E755FBE00B46CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 94S8BE2S25;
+				INFOPLIST_FILE = SuperMemorandumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sc-ici.SuperMemorandumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperMemorandum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046D7C7B1E755FBD00B46CDB /* Build configuration list for PBXProject "SuperMemorandum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046D7CAE1E755FBE00B46CDB /* Debug */,
+				046D7CAF1E755FBE00B46CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046D7CB01E755FBE00B46CDB /* Build configuration list for PBXNativeTarget "SuperMemorandum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046D7CB11E755FBE00B46CDB /* Debug */,
+				046D7CB21E755FBE00B46CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046D7CB31E755FBE00B46CDB /* Build configuration list for PBXNativeTarget "SuperMemorandumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046D7CB41E755FBE00B46CDB /* Debug */,
+				046D7CB51E755FBE00B46CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046D7CB61E755FBE00B46CDB /* Build configuration list for PBXNativeTarget "SuperMemorandumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046D7CB71E755FBE00B46CDB /* Debug */,
+				046D7CB81E755FBE00B46CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046D7C8F1E755FBE00B46CDB /* SuperMemorandum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046D7C901E755FBE00B46CDB /* SuperMemorandum.xcdatamodel */,
+			);
+			currentVersion = 046D7C901E755FBE00B46CDB /* SuperMemorandum.xcdatamodel */;
+			path = SuperMemorandum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046D7C781E755FBD00B46CDB /* Project object */;
+}
